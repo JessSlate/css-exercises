@@ -8,8 +8,12 @@ img {
 }
 
 .title {
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 900;
+  padding: 32px;
+
 }
 
 /* do not edit this footer */
@@ -23,4 +27,25 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+  gap: 52px;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.text {
+  display: flex;
+  max-width: 200px;
+  text-align: center;
 }
